@@ -1,1 +1,2 @@
-# postgresql-server-manager
+# PostgrueSQL Server Manager
+## Windows

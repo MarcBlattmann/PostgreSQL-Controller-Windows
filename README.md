@@ -1,10 +1,11 @@
 # PostgreSQL Controller for Windows
 
-This tool allows users to easily set whether the PostgreSQL server should automatically start on Windows startup.
+This tool allows users to easily manage the PostgreSQL server on Windows, including options to start, stop, and set the server to auto-start on system boot.
 
 ## Features
+- Start and stop PostgreSQL server.
 - Toggle PostgreSQL auto-start on system boot.
-- Simple and user-friendly interface.
+- Simple and intuitive interface.
 
 ## Installation
 

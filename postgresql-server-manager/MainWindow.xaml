@@ -1,0 +1,25 @@
+<Window x:Class="postgresql_server_manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        xmlns:local="clr-namespace:postgresql_server_manager"
+        mc:Ignorable="d"
+        Title="PostgreSQL manager" Height="200" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+            <StackPanel Margin="0 0 0 15" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Ellipse x:Name="StatusDot" Width="20" Height="20" Fill="Yellow" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <Label x:Name="StatusLabel" Content="Unknown" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="Black"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <ui:Button Content="Start Service" Click="StartService_Click" Width="120" Margin="5"/>
+                <ui:Button Content="Stop Service" Click="StopService_Click" Width="120" Margin="5"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <CheckBox x:Name="AutoStartCheckBox" Content="AutoStart" Width="100" Margin="5" Checked="AutoStartCheckBox_Checked" Unchecked="AutoStartCheckBox_Unchecked"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

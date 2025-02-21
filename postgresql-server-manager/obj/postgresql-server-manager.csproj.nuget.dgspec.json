@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Marc.Blattmann\\Downloads\\Temp\\postgresql-server-manager\\postgresql-server-manager\\postgresql-server-manager.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Marc.Blattmann\\Downloads\\Temp\\postgresql-server-manager\\postgresql-server-manager\\postgresql-server-manager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Marc.Blattmann\\Downloads\\Temp\\postgresql-server-manager\\postgresql-server-manager\\postgresql-server-manager.csproj",
+        "projectName": "postgresql-server-manager",
+        "projectPath": "C:\\Users\\Marc.Blattmann\\Downloads\\Temp\\postgresql-server-manager\\postgresql-server-manager\\postgresql-server-manager.csproj",
+        "packagesPath": "C:\\Users\\Marc.Blattmann\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marc.Blattmann\\Downloads\\Temp\\postgresql-server-manager\\postgresql-server-manager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Marc.Blattmann\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "https://pkgs.dev.azure.com/digitecgalaxus/_packaging/Devinite/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "dependencies": {
+            "System.ServiceProcess.ServiceController": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "WPF-UI": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,8 @@
-# 🐘 PostgreSQL Controller for Windows  
+# 🐘 PostgreSQL Controller for Windows
 
 ![image](https://github.com/user-attachments/assets/e8f16add-e965-410e-ae49-24f312a86cd2)  
 
-Easily manage your **PostgreSQL server** on Windows! 🚀  
+Easily manage your **PostgreSQL server** on Windows! 🚀
 With this tool, you can **start, stop**, and enable **auto-start** on system boot.  
 
 ## ✨ Features  
